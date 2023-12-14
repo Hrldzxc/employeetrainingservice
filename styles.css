@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional styles for specific sections */
+main section {
+    display: none;
+    margin-bottom: 20px;
+}
+
+/* Home Section */
+#home {
+    display: block;
+}
+
+/* About Section */
+#about {
+    /* Add styles for the about section */
+}
+
+/* Programs Section */
+#programs {
+    /* Add styles for the programs section */
+}
+
+/* Contact Section */
+#contact {
+    /* Add styles for the contact section */
+}
+
+/* Apply Section */
+#apply {
+    /* Add styles for the apply section */
+}
+
+/* View Applicants Section */
+#viewApplicants {
+    /* Add styles for the view applicants section */
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.program {
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Style for the view applicants section */
+#applicantList {
+    margin-top: 20px;
+}

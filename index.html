@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Training Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Additional styles for specific sections */
+        main section {
+            display: none;
+            margin-bottom: 20px;
+        }
+
+        /* Home Section */
+        #home {
+            display: block;
+        }
+
+        /* About Section */
+        #about {
+            /* Add styles for the about section */
+        }
+
+        /* Programs Section */
+        #programs {
+            /* Add styles for the programs section */
+        }
+
+        /* Contact Section */
+        #contact {
+            /* Add styles for the contact section */
+        }
+
+        /* Apply Section */
+        #apply {
+            /* Add styles for the apply section */
+        }
+
+        /* View Applicants Section */
+        #viewApplicants {
+            /* Add styles for the view applicants section */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .program {
+            margin-bottom: 20px;
+        }
+
+        address {
+            font-style: normal;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input,
+        button {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Style for the view applicants section */
+        #applicantList {
+            margin-top: 20px;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Employee Training Service</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a onclick="showSection('home')">Home</a></li>
+            <li><a onclick="showSection('about')">About</a></li>
+            <li><a onclick="showSection('programs')">Programs</a></li>
+            <li><a onclick="showSection('contact')">Contact Us</a></li>
+            <li><a onclick="showSection('apply')">Apply Online</a></li>
+            <li><a onclick="showSection('viewApplicants')">View Applicants</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to Employee Training Service!</h2>
+            <p>Here's what you can expect from our employee training services:</p>
+            <ul>
+                <li>Expertly Crafted Training Programs: Our experienced trainers develop and deliver customized, industry-specific courses to help your employees reach their full potential.</li>
+                <li>Flexible Learning Options: Choose from in-person workshops, interactive virtual sessions, or a blend of both to suit your team's learning preferences.</li>
+                <li>Results-Oriented Approach: We focus on delivering measurable results, ensuring that your employees gain the skills they need to boost productivity, job satisfaction, and contribute to your company's success.</li>
+                <li>Customized Training: We recognize that every organization is unique, and we work closely with you to create training programs that align with your specific business goals and values.</li>
+                <li>Confidentiality and Security: We prioritize data security and confidentiality to safeguard your sensitive company information.</li>
+            </ul>
+            <p>Join us on a journey of continuous improvement and witness your employees become the driving force behind your organization's success. Contact us today to learn how Employee Training Service can transform your workforce into a powerhouse of talent, innovation, and efficiency.</p>
+            <p>Are you ready to embark on your training journey? Let's get started!</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our Story</p>
+            <p>Welcome to Employee Training Service! We are a dedicated team of professionals with a passion for helping organizations succeed through employee training and development.</p>
+
+            <p>Founded in 2023, Employee Training Service has grown to become a leader in providing high-quality, tailored training solutions to businesses of all sizes and industries. Our mission is to empower your workforce with the knowledge and skills they need to excel in today's competitive landscape.</p>
+
+            <p>Our Approach</p>
+            <p>At Employee Training Service, we take a personalized and results-driven approach to training. We understand that every organization is unique, and that's why we work closely with you to design and deliver training programs that align with your specific business goals and values.</p>
+
+            <p>Our experienced trainers are experts in their respective fields, and they are dedicated to providing your employees with the tools they need to thrive. We offer flexible learning options, including in-person workshops and interactive virtual sessions, to accommodate your team's learning preferences.</p>
+
+            <p>Get in Touch</p>
+            <p>Whether you're a small startup or a large corporation, we are here to help you achieve your training and development goals. If you have any questions or would like to discuss how Employee Training Service can benefit your organization, please don't hesitate to contact us.</p>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <div class="program">
+                <h3><a href="https://en.wikipedia.org/wiki/Learning_Management_System">Learning Management System (LMS)</a></h3>
+                <p>A Learning Management System is a software application that helps organizations manage, track, and deliver training programs. It allows you to create and distribute online courses, track employee progress, and generate reports. Popular LMS options include Moodle, Canvas, and Adobe Captivate.</p>
+            </div>
+
+            <div class="program">
+                <h3><a href="https://en.wikipedia.org/wiki/On-the-job_training">On-the-Job Training (OJT)</a></h3>
+                <p>On-the-Job Training programs involve hands-on learning experiences where employees learn while performing their regular job tasks. This method is especially effective for job-specific skills and can include mentoring and apprenticeships.</p>
+            </div>
+
+            <div class="program">
+                <h3><a href="https://en.wikipedia.org/wiki/Soft_skills">Soft Skills Training</a></h3>
+                <p>Soft skills, such as communication, leadership, time management, and teamwork, are crucial for employee success. Various training programs and workshops are available to improve these skills, either through in-house training or external providers.</p>
+            </div>
+
+            <div class="program">
+                <h3><a href="https://en.wikipedia.org/wiki/Compliance_training">Compliance and Safety Training</a></h3>
+                <p>Organizations often need to provide compliance and safety training to meet regulatory requirements and ensure the well-being of their employees. This type of training may include topics like workplace safety, sexual harassment prevention, and diversity and inclusion.</p>
+            </div>
+
+            <div class="program">
+                <h3><a href="https://en.wikipedia.org/wiki/Leadership_development">Leadership Development Programs</a></h3>
+                <p>Leadership development programs are designed to nurture and enhance the skills of potential and existing leaders within an organization. These programs typically include training on leadership principles, conflict resolution, decision-making, and strategic planning.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div style="margin-bottom: 20px;">
+                <h3>Contact Information</h3>
+                <p>If you have any questions or need assistance, please feel free to contact us:</p>
+
+                <address>
+                    <strong>Address:</strong><br>
+                    Capistrano Compound 1003 Trinidad Square<br>
+                    Lucena City 4301
+                </address>
+
+                <p><strong>Email:</strong> haroldarambulo@yahoo.com</p>
+                <p><strong>Phone:</strong> 373-0176</p>
+            </div>
+        </section>
+
+        <!-- Apply Section -->
+        <section id="apply">
+            <h2>Apply Online</h2>
+            <p>If you're ready to join our training programs, please fill out the application form below:</p>
+
+            <!-- Include your actual form or application content here -->
+            <form id="applicationForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="resume">Resume (PDF or Word):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                <button type="button" onclick="submitApplication()">Submit Application</button>
+            </form>
+        </section>
+
+        <!-- View Applicants Section -->
+        <section id="viewApplicants">
+            <h2>View Applicants</h2>
+            <div id="applicantList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Employee Training Service. All rights reserved.</p>
+    </footer>
+
+    <!-- XML data -->
+    <script id="xmlData" type="application/xml">
+        <applicants>
+            <applicant>
+                <fullName>John Doe</fullName>
+                <email>john.doe@example.com</email>
+            </applicant>
+        </applicants>
+    </script>
+</body>
+
+</html>
